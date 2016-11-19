@@ -1,6 +1,5 @@
-#if swift(>=3.0)
-    import XCTest
-#endif
+import XCTest
+@testable import leap_swift
 
 class LeapTest: XCTestCase {
 

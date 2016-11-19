@@ -12,7 +12,8 @@
 		D4E798731DE0DF9E009A0B22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E798711DE0DF9E009A0B22 /* Main.storyboard */; };
 		D4E798751DE0DF9E009A0B22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E798741DE0DF9E009A0B22 /* Assets.xcassets */; };
 		D4E798781DE0DF9E009A0B22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E798761DE0DF9E009A0B22 /* LaunchScreen.storyboard */; };
-		D4E798831DE0DF9E009A0B22 /* leap_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E798821DE0DF9E009A0B22 /* leap_swiftTests.swift */; };
+		D4E7988E1DE0DFD0009A0B22 /* LeapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7988D1DE0DFD0009A0B22 /* LeapTest.swift */; };
+		D4E798901DE0E017009A0B22 /* Year.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7988F1DE0E017009A0B22 /* Year.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +35,9 @@
 		D4E798771DE0DF9E009A0B22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4E798791DE0DF9E009A0B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E7987E1DE0DF9E009A0B22 /* leap-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "leap-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4E798821DE0DF9E009A0B22 /* leap_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leap_swiftTests.swift; sourceTree = "<group>"; };
 		D4E798841DE0DF9E009A0B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E7988D1DE0DFD0009A0B22 /* LeapTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeapTest.swift; path = ../../LeapTest.swift; sourceTree = "<group>"; };
+		D4E7988F1DE0E017009A0B22 /* Year.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Year.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				D4E798741DE0DF9E009A0B22 /* Assets.xcassets */,
 				D4E798761DE0DF9E009A0B22 /* LaunchScreen.storyboard */,
 				D4E798791DE0DF9E009A0B22 /* Info.plist */,
+				D4E7988F1DE0E017009A0B22 /* Year.swift */,
 			);
 			path = "leap-swift";
 			sourceTree = "<group>";
@@ -90,7 +93,7 @@
 		D4E798811DE0DF9E009A0B22 /* leap-swiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				D4E798821DE0DF9E009A0B22 /* leap_swiftTests.swift */,
+				D4E7988D1DE0DFD0009A0B22 /* LeapTest.swift */,
 				D4E798841DE0DF9E009A0B22 /* Info.plist */,
 			);
 			path = "leap-swiftTests";
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4E798701DE0DF9E009A0B22 /* ViewController.swift in Sources */,
+				D4E798901DE0E017009A0B22 /* Year.swift in Sources */,
 				D4E7986E1DE0DF9E009A0B22 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,7 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4E798831DE0DF9E009A0B22 /* leap_swiftTests.swift in Sources */,
+				D4E7988E1DE0DFD0009A0B22 /* LeapTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
